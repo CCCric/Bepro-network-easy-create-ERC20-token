@@ -2,7 +2,8 @@
 
 const { ERC20Contract, Application } = require("bepro-js");
 
-const web3Connection = 'https://kovan.infura.io/v3/952b90437d5d4ec79b0aa0126f0f2f50';
+const web3Connection = 'https://kovan.infura.io/v3/952b90437d5d4ec79b0aa0126f0f2f50'; // Create token on Kovan testnet
+//const web3Connection = 'https://rpc.moonriver.moonbeam.network'; // Create token on Moonriver/Moonbeam network
 
 async function deployERC20(name = `BEPRO`,
                      symbol = `$BEPRO`,
