@@ -32,3 +32,6 @@ If you wish to use BEPRO token as defaults,
 |kovan|[0xE3A59c7a639816e3FBf3Cf14Ed0bf6E28A8D4Fd8](https://kovan.etherscan.io/address/0xE3A59c7a639816e3FBf3Cf14Ed0bf6E28A8D4Fd8)|
 |moonriver|[0xCb4a593ce512D78162C58384f0b2Fd6e802c2c47](https://blockscout.moonriver.moonbeam.network/address/0xCb4a593ce512D78162C58384f0b2Fd6e802c2c47/transactions)|
 
+To change from Kovan chain to moonriver chain comment out the respective option in both app.js and index.js
+On "ERC20 cap" field, you need to add 18 zeros after the desired token amount if you want 18 decimals, ex: for 1 million tokens with 18 decimals, 1000000000000000000000000
+
